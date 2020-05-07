@@ -1,0 +1,25 @@
+{
+  "name": "datawow/posmoni-php",
+  "description": " HTTP RESTFul for calling POSMONI API",
+  "keywords": ["posmoni", "datawow"],
+  "license": "MIT",
+  "homepage": "https://github.com/datawowio/posmoni-php",
+  "authors": [
+    {
+      "name": "datawow.io",
+      "email": "info@datawow.io"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/handle/"
+    ]
+  }
+}
