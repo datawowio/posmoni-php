@@ -1,7 +1,7 @@
 <?php
 
-require_once dirname(__FILE__)."/../../shared/BaseCommon.php";
-require_once dirname(__FILE__)."/../../connections/Connector.php";
+require_once dirname(__FILE__)."/../shared/BaseCommon.php";
+require_once dirname(__FILE__)."/../connections/Connector.php";
 
 class Moderation extends Connector
 {
